@@ -11,8 +11,9 @@ Step by step
 1. git clone https://github.com/MmichalMmajewski/csv-importer.git
 2. cd csv-importer
 3. composer install (might be needed composer update --ignore-platform-req=ext-gd)
+4. cp .env.example .env
 4. php artisan key:generate
-5. create your database and update env
+5. create your database and update env (if you change database name)
 5. php artisan migrate
 6. php artisan db:seed --class=UserSeeder
 
