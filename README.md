@@ -17,6 +17,8 @@ Step by step
 5. php artisan migrate
 6. php artisan db:seed --class=UserSeeder
 
+Matryca jak i obowiązkowe pola są zdefiniowane w config/app. 
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
