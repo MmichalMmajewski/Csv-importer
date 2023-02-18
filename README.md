@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+Step by step 
+1. git clone https://github.com/MmichalMmajewski/csv-importer.git
+2. cd csv-importer
+3. composer install (might be needed composer update --ignore-platform-req=ext-gd)
+4. php artisan key:generate
+5. php artisan migrate
+6. php artisan db:seed --class=UserSeeder
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
