@@ -12,6 +12,7 @@ Step by step
 2. cd csv-importer
 3. composer install (might be needed composer update --ignore-platform-req=ext-gd)
 4. php artisan key:generate
+5. create yout database and update env
 5. php artisan migrate
 6. php artisan db:seed --class=UserSeeder
 
